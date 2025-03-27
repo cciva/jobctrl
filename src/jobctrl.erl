@@ -2,7 +2,6 @@
 
 -export([
   submit/1, 
-  %enum/0, 
   lookup/1,
   schedule/1, 
   dump/1,
