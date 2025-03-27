@@ -1,0 +1,15 @@
+meta {
+  name: schedule
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/jobs/:job_id/schedule
+  body: json
+  auth: none
+}
+
+params:path {
+  job_id: 3ab0bad9-b174-49e1-b009-a2540875cdc7
+}

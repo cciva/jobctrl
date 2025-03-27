@@ -1,0 +1,19 @@
+{application, jobctrl, [
+  {description, "Simple job controller"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {jobctrl_app, []}},
+  {applications, [
+      kernel,
+      stdlib,
+      sasl,
+      cowboy,
+      lager,
+      jsx,
+      uuid
+  ]},
+  {env, []},
+  {modules, []},
+  {licenses, ["MIT"]},
+  {links, []}
+]}.

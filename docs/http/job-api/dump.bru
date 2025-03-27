@@ -1,0 +1,15 @@
+meta {
+  name: dump
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/jobs/:job_id/dump
+  body: none
+  auth: none
+}
+
+params:path {
+  job_id: 3ab0bad9-b174-49e1-b009-a2540875cdc7
+}

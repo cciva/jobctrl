@@ -1,0 +1,29 @@
+{"1.2.0",
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.12.0">>},0},
+ {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.13.0">>},1},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"jsx">>,
+  {git,"https://github.com/talentdeficit/jsx",
+       {ref,"a45c997cedc3bcc0bb014ac3faa7ec16bcd4f7b1"}},
+  0},
+ {<<"lager">>,
+  {git,"https://github.com/erlang-lager/lager",
+       {ref,"e6b31784e65b838a10d0a533f4b838da8029e402"}},
+  0},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.8.0">>},1},
+ {<<"uuid">>,
+  {git,"https://github.com/avtobiff/erlang-uuid.git",
+       {ref,"cb02a2039a9b29dd2eef0446039c9c6e164df9ef"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"cowboy">>, <<"F276D521A1FF88B2B9B4C54D0E753DA6C66DD7BE6C9FCA3D9418B561828A3731">>},
+ {<<"cowlib">>, <<"DB8F7505D8332D98EF50A3EF34B34C1AFDDEC7506E4EE4DD4A3A266285D282CA">>},
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"ranch">>, <<"8C7A100A139FD57F17327B6413E4167AC559FBC04CA7448E9BE9057311597A1D">>}]},
+{pkg_hash_ext,[
+ {<<"cowboy">>, <<"8A7ABE6D183372CEB21CAA2709BEC928AB2B72E18A3911AA1771639BEF82651E">>},
+ {<<"cowlib">>, <<"E1E1284DC3FC030A64B1AD0D8382AE7E99DA46C3246B815318A4B848873800A4">>},
+ {<<"goldrush">>, <<"99CB4128CFFCB3227581E5D4D803D5413FA643F4EB96523F77D9E6937D994CEB">>},
+ {<<"ranch">>, <<"49FBCFD3682FAB1F5D109351B61257676DA1A2FDBE295904176D5E521A2DDFE5">>}]}
+].
